@@ -13,6 +13,7 @@
         display: flex;
         gap:35px;
         justify-content: center;
+        z-index: 3;
         
         
     }
@@ -24,6 +25,7 @@
         font-size: 16px;
         line-height: 21px;
         margin-top: 54px;
+        z-index: 5;
         
     }
     &__item:hover{

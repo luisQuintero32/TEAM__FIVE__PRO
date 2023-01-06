@@ -1,14 +1,66 @@
 @import "../utils/mixins";
 @import "../utils/variables";
 
-.first__img-milk{
-    
-    margin-top: 40px;
-    margin-left: 16px;
-    display: flex;
+.box__milk{
+    position: relative;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    flex-direction: row;
+    width: 500px;
     
 }
+
+.first__img-milk{
+    position: absolute;
+    top: 60px;
+    left: 56px;
+    display: flex;  
+}
+.text_description{
+    position: absolute;
+    top: 470px;
+    left: 250px;
+    width: 220px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.box__svg{
+    position: absolute;
+    width: 200px;
+    top: 570px;
+    left: 250px;
+}
+
 .imagen-elipse{
-    display: flex;
-    justify-content: end;
+    // display: flex;
+    // justify-content: end;
+    position: absolute;
+    top: 54px;
+    left: 557px;
+    z-index: 1;
+}
+.image__cream{
+    position: absolute;
+    top: 108px;
+    left: 676px;z-index: 7;   
+}
+.images__tasty{
+    position: absolute;
+    top: 423px;
+    left: 920px;
+    z-index: 7;
+}
+.box__svg{
+    display: inline-block;
+}
+.arrow__svg{
+    width: 20px;
+    height: 20px;
+    fill: #000;
+    background: red;
 }
