@@ -125,7 +125,7 @@
 .first__img-milk {
   position: absolute;
   top: 60px;
-  left: 30px;
+  left: 56px;
   display: flex;
 }
 
@@ -269,6 +269,4 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-/*# sourceMappingURL=main.min.css.map */
+}/*# sourceMappingURL=main.css.map */
